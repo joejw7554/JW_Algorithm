@@ -18,7 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NQueens.cpp">
+    <ClCompile Include="BackTracking\NQueens.cpp">
       <Filter>소스 파일\BackTracking</Filter>
     </ClCompile>
   </ItemGroup>
