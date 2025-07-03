@@ -21,5 +21,8 @@
     <ClCompile Include="BackTracking\NQueens.cpp">
       <Filter>소스 파일\BackTracking</Filter>
     </ClCompile>
+    <ClCompile Include="BackTracking\Permutations.cpp">
+      <Filter>소스 파일\BackTracking</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

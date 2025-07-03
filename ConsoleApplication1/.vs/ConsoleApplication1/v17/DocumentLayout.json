@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\ConsoleApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE0E8E0B-9AC3-4939-9AF7-741622A9D311}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\joejw\\Desktop\\JW_Algorithm\\ConsoleApplication1\\ConsoleApplication1\\BackTracking\\NQueens.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AE0E8E0B-9AC3-4939-9AF7-741622A9D311}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\BackTracking\\NQueens.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AE0E8E0B-9AC3-4939-9AF7-741622A9D311}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\joejw\\Desktop\\JW_Algorithm\\ConsoleApplication1\\ConsoleApplication1\\BackTracking\\Permutations.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE0E8E0B-9AC3-4939-9AF7-741622A9D311}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\BackTracking\\Permutations.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NQueens.cpp",
-              "DocumentMoniker": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\ConsoleApplication1\\ConsoleApplication1\\BackTracking\\NQueens.cpp",
-              "RelativeDocumentMoniker": "ConsoleApplication1\\BackTracking\\NQueens.cpp",
-              "ToolTip": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\ConsoleApplication1\\ConsoleApplication1\\BackTracking\\NQueens.cpp",
-              "RelativeToolTip": "ConsoleApplication1\\BackTracking\\NQueens.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Title": "Permutations.cpp",
+              "DocumentMoniker": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\ConsoleApplication1\\ConsoleApplication1\\BackTracking\\Permutations.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\BackTracking\\Permutations.cpp",
+              "ToolTip": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\ConsoleApplication1\\ConsoleApplication1\\BackTracking\\Permutations.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\BackTracking\\Permutations.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-28T06:18:17.984Z",
+              "WhenOpened": "2025-07-01T05:53:59.631Z",
               "EditorCaption": ""
             }
           ]
