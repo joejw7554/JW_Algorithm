@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\joejw\Desktop\JW_Algorithm\C#\DFS BFS.cs" Link="DFS BFS.cs" />
+    <None Include="C:\Users\joejw\Desktop\JW_Algorithm\C#\DFS BFS.cs" Link="DFS BFS\DFS BFS.cs" />
   </ItemGroup>
 
 </Project>
