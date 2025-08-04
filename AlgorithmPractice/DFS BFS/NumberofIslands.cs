@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace AlgorithmPractice
 {
-    internal class NumberofIslands
+    class NumberofIslands
     {
+
+
+
     }
 }
