@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85BAD67B-AB90-4B2C-8B11-58A699DCBB05}|AlgorithmPractice\\AlgorithmPractice.csproj|c:\\users\\joejw\\desktop\\jw_algorithm\\algorithmpractice\\dfs bfs\\cowart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85BAD67B-AB90-4B2C-8B11-58A699DCBB05}|AlgorithmPractice\\AlgorithmPractice.csproj|solutionrelative:algorithmpractice\\dfs bfs\\cowart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85BAD67B-AB90-4B2C-8B11-58A699DCBB05}|AlgorithmPractice\\AlgorithmPractice.csproj|c:\\users\\joejw\\desktop\\jw_algorithm\\algorithmpractice\\dfs bfs\\numberofislands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85BAD67B-AB90-4B2C-8B11-58A699DCBB05}|AlgorithmPractice\\AlgorithmPractice.csproj|solutionrelative:algorithmpractice\\dfs bfs\\numberofislands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85BAD67B-AB90-4B2C-8B11-58A699DCBB05}|AlgorithmPractice\\AlgorithmPractice.csproj|c:\\users\\joejw\\desktop\\jw_algorithm\\c#\\dfs bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85BAD67B-AB90-4B2C-8B11-58A699DCBB05}|AlgorithmPractice\\AlgorithmPractice.csproj|solutionrelative:c#\\dfs bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85BAD67B-AB90-4B2C-8B11-58A699DCBB05}|AlgorithmPractice\\AlgorithmPractice.csproj|c:\\users\\joejw\\desktop\\jw_algorithm\\algorithmpractice\\dfs bfs\\cowart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BAD67B-AB90-4B2C-8B11-58A699DCBB05}|AlgorithmPractice\\AlgorithmPractice.csproj|solutionrelative:algorithmpractice\\dfs bfs\\cowart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,39 +22,25 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DFS BFS.cs",
-              "DocumentMoniker": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\C#\\DFS BFS.cs",
-              "RelativeDocumentMoniker": "C#\\DFS BFS.cs",
-              "ToolTip": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\C#\\DFS BFS.cs",
-              "RelativeToolTip": "C#\\DFS BFS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CowArt.cs",
+              "DocumentMoniker": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\AlgorithmPractice\\DFS BFS\\CowArt.cs",
+              "RelativeDocumentMoniker": "AlgorithmPractice\\DFS BFS\\CowArt.cs",
+              "ToolTip": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\AlgorithmPractice\\DFS BFS\\CowArt.cs",
+              "RelativeToolTip": "AlgorithmPractice\\DFS BFS\\CowArt.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAjwPkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T04:44:11.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T04:44:12.062Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CowArt.cs",
-              "DocumentMoniker": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\AlgorithmPractice\\DFS BFS\\CowArt.cs",
-              "RelativeDocumentMoniker": "AlgorithmPractice\\DFS BFS\\CowArt.cs",
-              "ToolTip": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\AlgorithmPractice\\DFS BFS\\CowArt.cs*",
-              "RelativeToolTip": "AlgorithmPractice\\DFS BFS\\CowArt.cs*",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAewKoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T04:44:12.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "NumberofIslands.cs",
               "DocumentMoniker": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\AlgorithmPractice\\DFS BFS\\NumberofIslands.cs",
               "RelativeDocumentMoniker": "AlgorithmPractice\\DFS BFS\\NumberofIslands.cs",
               "ToolTip": "C:\\Users\\joejw\\Desktop\\JW_Algorithm\\AlgorithmPractice\\DFS BFS\\NumberofIslands.cs",
               "RelativeToolTip": "AlgorithmPractice\\DFS BFS\\NumberofIslands.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T04:38:55.599Z",
               "EditorCaption": ""

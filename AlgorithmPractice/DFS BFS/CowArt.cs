@@ -238,14 +238,14 @@ class CowArt
     }
 
 
-    static void Main()
-    {
-        var (N, grid) = ReadInput();
-        //int normal = BFSCountNormalRegions(N, grid);
-        //int colorBlind = BFSCountColorBlindRegions(N, grid);
+    //static void Main()
+    //{
+    //    var (N, grid) = ReadInput();
+    //    //int normal = BFSCountNormalRegions(N, grid);
+    //    //int colorBlind = BFSCountColorBlindRegions(N, grid);
 
-        int normal = DFSCountColorNormalRegions(N, grid);
-        int colorBlind = DFSCountColorBlindRegions(N, grid);
-        Console.WriteLine($"{normal} {colorBlind}");
-    }
+    //    int normal = DFSCountColorNormalRegions(N, grid);
+    //    int colorBlind = DFSCountColorBlindRegions(N, grid);
+    //    Console.WriteLine($"{normal} {colorBlind}");
+    //}
 }

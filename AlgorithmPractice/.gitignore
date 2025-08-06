@@ -1,0 +1,19 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.log
+
+# NuGet packages
+packages/
+
+# Other common files to ignore
+*.bak
+*.tmp
