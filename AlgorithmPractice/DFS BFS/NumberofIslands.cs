@@ -103,21 +103,59 @@ namespace AlgorithmPractice
             return islandCount;
         }
 
-        //int CountIslandsDFS(int row, int col, int[,] map)
-        //{
-
-        //}
-
-
-
-        static void Main()
+        static int CountIslandsDFS(int row, int col, int[,] map)
         {
-            var (map, row, col) = InputProcess();
+            int numOfIslands = 0;
+            bool[,] visited = new bool[row, col];
 
-            var islandCount= CountIslandsBFS(row, col, map);
+            for (int i = 0; i < row; i++)
+            {
+                for (int j = 0; j < col; j++)
+                {
+                    if (map[i, j] == 1 && !visited[i, j])
+                    {
+                        Stack<(int, int)> stack = new();
+                        stack.Push((i, j));
+                        visited[i, j] = true;
 
-            //var islandCount = CountIslandsDFS(row, col, map);
-            Console.WriteLine(islandCount);
+                        while (stack.Count > 0)
+                        {
+                            var (y, x) = stack.Pop();
+
+                            for (int dy = -1; dy <= 1; dy++)
+                            {
+                                for (int dx = -1; dx <= 1; dx++)
+                                {
+                                    if (dy == 0 && dx == 0) continue;
+                                    int ny = y + dy;
+                                    int nx = x + dx;
+                                    if (ny >= 0 && ny < row && nx >= 0 && nx < col)
+                                    {
+                                        if (!visited[ny, nx] && map[ny, nx] == 1)
+                                        {
+                                            visited[ny, nx] = true;   // 먼저 방문 표시
+                                            stack.Push((ny, nx));     // 그 다음 push
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        numOfIslands++;
+                    }
+                }
+            }
+            return numOfIslands;
         }
+
+
+
+        //static void Main()
+        //{
+        //    var (map, row, col) = InputProcess();
+
+        //    //var islandCount= CountIslandsBFS(row, col, map);
+        //    int islandCount = CountIslandsDFS(row, col, map);
+        //    Console.WriteLine(islandCount);
+        //}
     }
 }
