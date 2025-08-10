@@ -23,13 +23,12 @@ namespace AlgorithmPractice
             return answer;
         }
 
-        // 테스트용 Main 함수
-        static void Main()
-        {
-            string input = "3 5 7 2 8";
-            int total = SplitStringToIntArray(input);
-            Console.WriteLine($"Answer {total}");
+        //static void Main()
+        //{
+        //    string input = "3 5 7 2 8";
+        //    int total = SplitStringToIntArray(input);
+        //    Console.WriteLine($"Answer {total}");
 
-        }
+        //}
     }
 }
