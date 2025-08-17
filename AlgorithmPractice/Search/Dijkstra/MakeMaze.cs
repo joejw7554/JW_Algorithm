@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 //https://www.acmicpc.net/problem/2665
 
+//#define TEST;
+
 namespace AlgorithmPractice.Search.Dijkstra
 {
     class MakeMaze
@@ -123,9 +125,12 @@ namespace AlgorithmPractice.Search.Dijkstra
             return dist[N - 1, N - 1];  // 도착점까지의 최소 비용
         }
 
+
+#if TEST
         static void Main()
         {
             HandleInput();
         }
+#endif
     }
 }

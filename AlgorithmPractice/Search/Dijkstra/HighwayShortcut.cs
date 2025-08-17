@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
+//#define TEST
+
 //https://www.acmicpc.net/problem/1446
 public class ShortestPath
 {
@@ -11,7 +13,7 @@ public class ShortestPath
         public int Position { get; set; }
     }
 
-
+#if TEST
     public static void Main(string[] args)
     {
         int N, D;
@@ -85,10 +87,10 @@ public class ShortestPath
             {
                 int newCost = dist[current.Position] + neighbor.Distance;
 
-                if(newCost < dist[neighbor.Position])
+                if (newCost < dist[neighbor.Position])
                 {
-                    dist[neighbor.Position] = newCost;  
-                    
+                    dist[neighbor.Position] = newCost;
+
                     Node newNode = new Node();
                     newNode.Position = neighbor.Position;
                     newNode.Distance = newCost;
@@ -104,5 +106,5 @@ public class ShortestPath
 
     }
 
-
+#endif
 }

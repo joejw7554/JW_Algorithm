@@ -23,12 +23,12 @@ namespace AlgorithmPractice
             return answer;
         }
 
-        //static void Main()
-        //{
-        //    string input = "3 5 7 2 8";
-        //    int total = SplitStringToIntArray(input);
-        //    Console.WriteLine($"Answer {total}");
+        static void Main()
+        {
+            string input = "3 5 7 2 8";
+            int total = SplitStringToIntArray(input);
+            Console.WriteLine($"Answer {total}");
 
-        //}
+        }
     }
 }
