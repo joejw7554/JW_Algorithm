@@ -1,35 +1,42 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 
 //https://www.acmicpc.net/problem/1446
 public class ShortestPath
 {
-    // ³ëµå¸¦ Ç¥ÇöÇÏ´Â Å¬·¡½º (°Å¸®, À§Ä¡)
+    // ë…¸ë“œë¥¼ í‘œí˜„í•˜ëŠ” í´ë˜ìŠ¤ (ê±°ë¦¬, ìœ„ì¹˜)
     public class Node
     {
         public int Distance { get; set; }
         public int Position { get; set; }
     }
 
+
     public static void Main(string[] args)
     {
         int N, D;
-        string[] firstLine = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries & StringSplitOptions.TrimEntries);
+        string[] firstLine = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
         N = int.Parse(firstLine[0]);
         D = int.Parse(firstLine[1]);
 
         List<Node>[] road = new List<Node>[D + 1];
 
-        // ÀÏ¹İ µµ·Î °£¼± Ãß°¡
+        // ê° ë°°ì—´ ìš”ì†Œë¥¼ Listë¡œ ì´ˆê¸°í™”
+        for (int i = 0; i <= D; i++)
+        {
+            road[i] = new List<Node>();
+        }
+
+        // ì¼ë°˜ ë„ë¡œ ê°„ì„  ì¶”ê°€
         for (int i = 0; i < D; i++)
         {
             Node regularRoad = new Node();
             regularRoad.Distance = 1;
             regularRoad.Position = i + 1;
-            road[i].Add(regularRoad);
+            road[i].Add(regularRoad); // âœ… ì´ì œ ì •ìƒ ë™ì‘
         }
 
-        // Áö¸§±æ Ãß°¡ (±âÁ¸ ÄÚµå °³¼±)
+        // ì§€ë¦„ê¸¸ ì¶”ê°€ (ê¸°ì¡´ ì½”ë“œ ê°œì„ )
         for (int i = 0; i < N; i++)
         {
             int[] shortcuts = Array.ConvertAll(Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries), int.Parse);
@@ -46,7 +53,56 @@ public class ShortestPath
             }
         }
 
+        Dikstra(0, N, D, road);
 
     }
+
+    static void Dikstra(int Start, int N, int D, List<Node>[] road)
+    {
+        int[] dist = new int[D + 1];
+        for (int i = 0; i <= D; i++)
+        {
+            dist[i] = int.MaxValue;
+        }
+
+        dist[Start] = 0;
+
+        var pq = new PriorityQueue<Node, int>();
+
+        Node startNode = new Node();
+        startNode.Position = Start;
+        startNode.Distance = 0;
+        pq.Enqueue(startNode, 0);
+
+        while (pq.Count > 0)
+        {
+            Node current = pq.Dequeue();
+
+            if (dist[current.Position] < current.Distance) continue;
+
+
+            foreach (var neighbor in road[current.Position])
+            {
+                int newCost = dist[current.Position] + neighbor.Distance;
+
+                if(newCost < dist[neighbor.Position])
+                {
+                    dist[neighbor.Position] = newCost;  
+                    
+                    Node newNode = new Node();
+                    newNode.Position = neighbor.Position;
+                    newNode.Distance = newCost;
+                    pq.Enqueue(newNode, newCost);
+                }
+
+            }
+
+        }
+
+        Console.WriteLine(dist[D]);
+
+
+    }
+
 
 }
