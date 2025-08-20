@@ -24,8 +24,8 @@ namespace AlgorithmPractice.Search.Dijkstra
         }
 
         static int N;
-        static int[,] map;
-        static int[,] dist;
+        static int[,]? map;
+        static int[,]? dist;
 
         // 4방향 이동 (상, 하, 좌, 우)
         static int[] dx = { -1, 1, 0, 0 };

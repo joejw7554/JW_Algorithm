@@ -3,6 +3,8 @@ using System.Collections.Immutable;
 using System.Diagnostics;
 using System.Linq;
 
+//#define TEST
+
 namespace AlgorithmPractice
 {
     class StringSplitSelectPractice
@@ -23,6 +25,7 @@ namespace AlgorithmPractice
             return answer;
         }
 
+#if TEST
         static void Main()
         {
             string input = "3 5 7 2 8";
@@ -30,5 +33,6 @@ namespace AlgorithmPractice
             Console.WriteLine($"Answer {total}");
 
         }
+#endif
     }
 }
